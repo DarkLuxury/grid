@@ -1,0 +1,57 @@
+body {
+    display: grid;
+    grid-template: 'header1 header2 header3 header4 header5 header6 header7 header8 header9'
+                    'nav1 nav2 nav3 nav4 nav5 nav6 nav7 nav8 nav9'
+                    'article1 article2 article3 article4 article5 article6 article7 article8 article9'
+                    'p1 p2 p3 p4 p5 p6 p7 p8 p9'
+                    'section1 section2 section3 section4 section5 section6 section7 section8 section9'
+                    'footer1 footer2 footer3 footer4 footer5 footer6 footer7 footer8 footer9';
+    grid-template-rows: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 20vw;
+    grid-template-columns: 15vh 15vh 15vh 15vh 15vh 25vh;
+}
+
+#header1 {
+    grid-area: header1;
+    background-color: white;
+}
+
+#header2 {
+    grid-area: header2;
+    background-color: yellow;
+}
+
+#header3 {
+    grid-area: header3;
+    background-color: blue;
+}
+
+
+#header4 {
+    grid-area: header4;
+    background-color: blue;
+}
+
+#header5 {
+    grid-area: header5;
+    background-color: red;
+}
+
+#header6 {
+    grid-area: header6;
+    background-color: red;
+}
+
+#header7 {
+    grid-area: header7;
+    background-color: red;
+}
+
+#header8 {
+    grid-area: header8;
+    background-color: yellow;
+}
+
+#header9 {
+    grid-area: header9;
+    background-color: white;
+}
